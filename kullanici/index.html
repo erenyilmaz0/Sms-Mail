@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Giriş Ekranı</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+		<link rel="stylesheet" href="styleIndex.css">
+	</head>
+	<style>
+		.admn{
+			width: 100%;
+			padding: 15px;
+			border: 0;
+			cursor: pointer;
+			font-weight: bold;
+			color: #ffffff;
+			transition: background-color 0.2s;
+			text-align: center;
+		}
+	</style>
+	<body>
+		<div class="login">
+			<h1>Giriş</h1>
+			<form action="girisKontrol.php" method="post">
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Kullanıcı Adı" id="username" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Parola" id="password" required>
+				<input type="submit" value="Giriş">
+				<div class="admn">
+					<a href="../admin/">Admin Paneli</a>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
