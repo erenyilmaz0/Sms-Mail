@@ -2,8 +2,8 @@
 
 class smsGonder
 {
-    private $username = '05413343043';
-    private $password = 'eren00';
+    private $username = ''; //ileti merkezi telefon no
+    private $password = ''; //ileti merkezi sifresi
     private $reqSendLink      = 'http://api.iletimerkezi.com/v1/send-sms';
     private $reqBalanceLink   = 'https://api.iletimerkezi.com/v1/get-balance';
     private $reqReportLink    = 'https://api.iletimerkezi.com/v1/get-report';
