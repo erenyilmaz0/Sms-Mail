@@ -22,8 +22,8 @@ $mail->SMTPAuth   = true;
 $mail->SMTPSecure = 'tls';
 $mail->Port       = 587;
 $mail->Host       = 'smtp.gmail.com';                    
-$mail->Username   = 'baumstaj@gmail.com';                     
-$mail->Password   = 'baumstaj2020';
+$mail->Username   = ''; //email                     
+$mail->Password   = ''; //email password
 $mail->CharSet    = 'UTF-8';
 ?>
 <html>
